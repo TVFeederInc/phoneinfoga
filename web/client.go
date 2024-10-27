@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-//go:embed client/dist/*
+go:embed web/client/*
 var clientFS embed.FS
 
 const (
